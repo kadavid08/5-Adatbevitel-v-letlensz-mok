@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+
+<body>
+    <script>
+        // 1.
+        let nev = prompt("Neved:");
+        console.log("Szia " + nev + "!");
+
+        // 2.
+        let a = Number(prompt("Teglalap a oldal:"));
+        let b = Number(prompt("Teglalap b oldal:"));
+        console.log("Kerulet: " + 2 * (a + b));
+        console.log("Terulet: " + a * b);
+
+        // 3.
+        let r = Number(prompt("Kor sugara:"));
+        console.log("Kerulet: " + 2 * r * Math.PI);
+        console.log("Terulet: " + r * r * Math.PI);
+
+        // 4.
+        console.log("Dobokocka: " + (Math.floor(Math.random() * 6) + 1));
+
+        // 5.
+        console.log("Lottoszam: " + (Math.floor(Math.random() * 90) + 1));
+
+        // 6.
+        let inch = Number(prompt("Inch:"));
+        console.log("Cm: " + inch * 2.71);
+
+        // 7.
+        let ora = Number(prompt("Ora:"));
+        let perc = Number(prompt("Perc:"));
+        let mp = Number(prompt("Masodperc:"));
+        console.log("Napbol eltelt mp: " + (ora * 3600 + perc * 60 + mp));
+    </script>
+</body>
+
+</html>
